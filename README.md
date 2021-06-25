@@ -6,3 +6,5 @@
 * Flexbox
 * Grid
 * Медиа запросов для адаптивной верстки под экраны с размерами 1024px, 768px, 320px.
+
+[Ссылка] (https://stanislavgolik.github.io/russian-travel/index.html) на проект на GitHub Pages
