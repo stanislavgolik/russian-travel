@@ -2,3 +2,16 @@
   align-self: end;
   max-width: 456px;
 }
+
+@media screen and (max-width: 380px) {
+  .place__website  {
+    margin-left: 16px;
+    max-width: 288px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__website  {
+    max-width: 288px;
+  }
+}
