@@ -16,8 +16,18 @@
     max-width: 928px;
     grid-template-columns: 440px 1fr;
     gap: 48px 32px;
+    margin-bottom: 68px;
   }
 }
+
+@media screen and (max-width: 1023px) {
+  .place {
+    max-width: 928px;
+    grid-template-columns: minmax(320px, 1fr) 1fr;
+    gap: 48px 32px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .place {
     max-width: 720px;
@@ -26,25 +36,9 @@
   }
 }
 
-@media screen and (max-width: 620px) {
-  .place {
-    grid-template-columns: 1fr 1fr;
-    gap: 48px 28px;
-  }
-}
-
-@media screen and (max-width: 445px) {
-  .place {
-    grid-template-columns: 100%;
-    gap: 32px;
-    justify-content: center;
-  }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .place {
     grid-template-columns: 1fr;
-    gap: 32px;
     margin-bottom: 50px;
   }
 }
