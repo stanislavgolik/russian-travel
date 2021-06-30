@@ -3,7 +3,7 @@
   max-width: 1184px;
   justify-content: space-between;
   align-items: center;
-  margin: 88px 48px 0;
+  margin: 88px 48px 24px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -26,6 +26,6 @@
     flex-direction: column;
     margin-top: 64px;
     margin-left: 16px;
-    margin-bottom: 24px;
+    align-items: flex-start;
   }
 }
